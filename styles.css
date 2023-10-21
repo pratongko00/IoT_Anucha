@@ -1,0 +1,170 @@
+body {
+  background-image: url('Picture\space-background.jpg');
+  background-size: cover; /* ปรับขนาดภาพให้เต็มขนาดกับหน้าจอ */
+  background-position: center; /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+  background-repeat: no-repeat; /* ไม่ให้ภาพทำซ้ำ */
+}
+
+/* ___________________________________________________________________________________________________________ */
+  .fa-twitter:hover {
+    transform: scale(2) rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+    color: purple;
+}
+
+  .fa-facebook-f:hover {
+    transform: scale(2) rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+    color: purple;
+}
+
+  .fa-instagram:hover {
+    transform: scale(2) rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+    color: purple;
+  }
+  
+  .fa-github:hover {
+    transform: scale(2) rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+    color: purple;
+  }
+/* ___________________________________________________________________________________________________________ */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+ p.bio {
+  text-align: center;
+  border: 1px solid #ddd; /* เส้นขอบสีเทา */
+  padding: 20px; /* เพิ่มเว้นระยะของเนื้อหาภายในกล่อง */
+  border-radius: 5px; /* กำหนดมุมขอบของกล่อง */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กล่อง */
+ }
+
+hr {
+  width: 100px;
+  height:2px; 
+  background-color: #1DA1F2;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  
+}
+
+img.logo {
+  width: 20%;
+  height: 15%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+h1.name {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+span.slogan {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.social-img ul{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.social-img ul li{
+  display: inline;
+  background: rgba(red, green, blue, alpha);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: background 150ms ease-in-out;
+}
+
+.social-img ul li:hover{
+  background:  #ccc;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.1rem;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  border: 1px solid #ff0000; /* เส้นขอบสีเทา */
+  padding: 20px; /* เพิ่มเว้นระยะของเนื้อหาภายในกล่อง */
+  border-radius: 5px; /* กำหนดมุมขอบของกล่อง */
+  box-shadow: 10px 4px 8px 5px rgba(255, 0, 0, 0.2); /* เพิ่มเงาให้กล่อง */
+  background-color: #fff34e;
+}
+
+.row {
+  display: flex; /* ให้คอนเทนเนอร์ในคลาส work เป็น flex container */
+  flex-wrap: wrap; /* ให้รูปภาพขึ้นบรรจุในแถวใหม่หากพื้นที่ไม่เพียงพอ */
+  justify-content: space-between; /* จัดวางรูปภาพให้อยู่ในช่องว่างที่เหลือในคอนเทนเนอร์ */
+}
+
+.row img {
+  width: 100%; /* กำหนดความกว้างของภาพให้เป็น 48% */
+  height: auto; /* ทำให้ความสูงของภาพปรับตามอัตราส่วนของความกว้าง */
+  margin-bottom: 5px; /* ให้ระยะห่างระหว่างรูปภาพ */
+}
+
+
+
+.work{
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0px 0px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.Skill {
+  width: 100%; /* ลดขนาดของส่วนทักษะลง */
+  background-color: #ddd;
+  border: 1px solid #ccc; /* เพิ่มเส้นขอบ */
+  padding: 5px; /* ปรับการเว้นระยะของเนื้อหาในกรอบ */
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.html {width: 80%; background-color: #04AA6D;} /* ปรับขนาดของส่วนทักษะแต่ละส่วนลง */
+.css {width: 70%; background-color: #2196F3;} /* ปรับขนาดของส่วนทักษะแต่ละส่วนลง */
+.js {width: 55%; background-color: #f44336;} /* ปรับขนาดของส่วนทักษะแต่ละส่วนลง */
+.php {width: 50%; background-color: #808080;} /* ปรับขนาดของส่วนทักษะแต่ละส่วนลง */
